@@ -1,0 +1,26 @@
+name: gnn-manip
+channels:
+  - defaults
+  - conda-forge
+  - pytorch-lts
+  - rusty1s
+dependencies:
+  - python=3.7
+  - cma
+  - numpy
+  - matplotlib==3.3.4
+  - scikit-learn==0.24.1
+  - cudatoolkit=10.2
+  - pytorch==1.9.0
+  - torchvision
+  - pytorch-geometric
+  - pip
+  - pip:
+      - dill==0.3.3
+      - hickle==4.0.4
+      - networkx==2.5.1
+      - numba==0.53.1
+      - pandas==1.2.4
+      - pillow==8.2.0
+      - geomloss
+      - future-fstrings

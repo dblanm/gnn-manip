@@ -1,0 +1,3 @@
+[submodule "deps/torch-graphnet"]
+	path = deps/torch-graphnet
+	url = https://github.com/dblanm/torch-graphnet.git
