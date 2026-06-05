@@ -5,8 +5,6 @@
 import torch
 import torch.nn as nn
 from torch_graphnet import InteractionNetwork, GraphIndependent
-from gnn_manip.models.action_networks import ActionInteractionNetwork, ActionGraphIndependent
-
 
 class EncProcDecGNN(nn.Module):
 

@@ -39,7 +39,7 @@ If you used our code, please consider citing:
 ## Cloning the repository
 You can clone the repository with all the dependencies using
 ```shell
-git clone --recurse-submodules git@version.aalto.fi:mulerod1/gnn-manip.git
+git clone --recurse-submodules git@github.com:dblanm/gnn-manip.git
 ```
 
 If you have already cloned the repository, remove the deps folder and update the submodules
